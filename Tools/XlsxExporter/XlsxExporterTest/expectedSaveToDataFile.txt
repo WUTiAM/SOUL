@@ -1,0 +1,41 @@
+-- id                       int              索引
+-- mapSegments              array[3:int]     地图片段组
+-- bCacheData               bool             是否存储数
+-- nItemType                int              奖励类型
+-- nItemNum                 int              奖励数量
+-- npc1                     dict[4]          怪物1
+--   npcId                  int              怪物ID
+--   spawnMoment            int              出生时机
+--   spawnPoint             array[2:int]     出生点
+--   spawnType              int              出生类型
+-- fPercent_1               float            概率1
+-- fPercent_2               float            概率2
+-- strDefaultTitle          string           默认标题
+
+return {
+	[1] = {
+		mapSegments = { 1, 2, 3, },
+		bCacheData = true,
+		nItemType = 18,
+		nItemNum = 2,
+		npc1 = {
+			npcId = 1,
+			spawnMoment = 1,
+			spawnPoint = { 9, 0, },
+			spawnType = 1,
+		},
+		fPercent_1 = 0.05,
+		fPercent_2 = 0.05,
+		strDefaultTitle = "金手指畅想",
+	},
+	[1000] = {
+		mapSegments = { 11, 2, -1, },
+		bCacheData = true,
+		nItemType = 1,
+		nItemNum = 4,
+		fPercent_1 = 0.02,
+		fPercent_2 = 0.07,
+		strDefaultTitle = "呼朋唤友",
+	},
+}
+

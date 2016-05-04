@@ -1,0 +1,13 @@
+-- array[3:int]         mapSegments          （地图片段组）
+-- bool                 bCacheData           （是否存储数）
+-- int                  nItemType            （奖励类型）
+-- int                  nItemNum             （奖励数量）
+-- dict[4]              npc1                 （怪物1）
+--   npcId                  int              （怪物ID）
+--   spawnMoment            int              （出生时机）
+--   spawnPoint             array[2:int]     （出生点）
+--   spawnType              int              （出生类型）
+-- float                fPercent_1           （概率1）
+-- float                fPercent_2           （概率2）
+-- string               strDefaultTitle      （默认标题）
+
